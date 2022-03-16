@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center-container{
+            /*center align the content of the container*/
+            display: flex;
+            justify-content: center;
+            width:90vw;
+            max-width:1000px;
+            height: 50vh;
+            border:1px solid #333;
+            /*center the container in the viewport*/
+            margin-inline: auto;
+            
+        }
+        img{
+            /*fit the image in the container*/
+            max-width: 100%;
+           object-fit: contain;     
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="center-container">
+        <img src="kagemand.png" alt="">
+        <h2>Kagemand</h2>
+    </div>
+</body>
+</html>
