@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3,1fr);
+            width:100vw;
+            height: 50vh;
+        }
+img{
+grid-area: 1 / 1 / -1 / -1;
+width: 100%;
+height: 50vh;
+object-fit: cover;
+object-position: center top;
+max-width: 100vw;
+   
+}
+p{
+    font-size: 3rem;
+    color:#fff;
+    text-shadow: #333 5px 2px 5px;
+    padding: 10px;
+}
+.jul{
+     grid-area: 3 / 2;
+}
+.andet{
+    grid-area: 1 / 1;
+    justify-self: start;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <img src="nisse.jpg" alt="">
+        <p class="jul">Julen varer lige til påske</p>
+        <p class="andet">Værkstedet</p>
+    </section>
+</body>
+</html>
