@@ -11,19 +11,18 @@
         }
         section{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3,1fr);
+           /*  grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3,1fr); */
+            grid-template: repeat(3,1fr)/ repeat(3,1fr);
             width:100vw;
             height: 50vh;
         }
 img{
 grid-area: 1 / 1 / -1 / -1;
 width: 100%;
-height: 50vh;
+height: 100%;
 object-fit: cover;
-object-position: center top;
-max-width: 100vw;
-   
+object-position: center top;  
 }
 p{
     font-size: 3rem;
