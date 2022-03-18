@@ -13,6 +13,9 @@
           
        
         }
+        picture{
+            
+        }
 img{
 
 }
@@ -32,7 +35,11 @@ p{
 </head>
 <body>
     <section>
-        <img src="nisse.jpg" alt="">
+        <picture>
+  <source srcset="nisse.webp" type="image/webp">
+  <source srcset="nisse.jpg" type="image/jpeg"> 
+  <img src="nisse.jpg" alt="jul på værkstedet">
+</picture>
         <p class="jul">Julen varer lige til påske</p>
         <p class="andet">Værkstedet</p>
     </section>
